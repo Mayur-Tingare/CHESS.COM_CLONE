@@ -48,7 +48,7 @@ io.on("connection", function(uniquesocket){
             // game band krdo
         }
         else if(uniquesocket.id===players.black){
-            delete players.white;
+            delete players.black;
 
             // game band krdo
         }
